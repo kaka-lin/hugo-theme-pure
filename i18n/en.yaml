@@ -148,19 +148,7 @@ copyright_post:
   other: Permalink
 copyright_license:
   other: License
-
-insight_hint: 
-  other: Type something...
-insight_posts: 
-  other: Posts
-insight_pages: 
-  other: Pages
-insight_categories:
-  other: Categories
-insight_tags:
-  other: Tags
-insight_untitled:
-  other: (Untitled)
+  
 
 page_not_found_heading:
   other: 404 Not Found

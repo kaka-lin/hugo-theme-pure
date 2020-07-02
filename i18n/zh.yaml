@@ -8,79 +8,75 @@ nav_newer:
 
 
 page_home:
-  other: 主页
+  other: 首頁
 page_archive:
-  other: 归档
+  other: 文章
 page_archives:
-  other: 归档
+  other: 文章
 page_category:
-  other: 分类
+  other: 分類
 page_categories:
-  other: 分类
+  other: 分類
 page_tag:
-  other: 标签
+  other: 標籤
 page_tags:
-  other: 标签
+  other: 標籤
 page_tagcloud:
-  other: 标签云
-page_uncategorized:
-  other: 未分类
-page_repository:
-  other: 项目
-page_douban:
-  other: 豆瓣
-page_books:
-  other: 书单
-page_books-desc:
-  other: 个人收藏的书单推荐给大家
-page_movies:
-  other: 电影
-page_movies-desc:
-  other: 个人喜欢的电影推荐给大家
-page_links:
-  other: 友情链接
-page_links-desc:
-  other: 欢迎交换链接, 可在当前页面留言
+  other: 標籤雲
 page_about:
-  other: 关于
+  other: 關於
 
 pagination_next:
-  other: 下一页
+  other: 下一頁
 pagination_prev:
-  other: 上一页
+  other: 上一頁
 pagination_page:
-  other: 第 %d 页
+  other: 第 %d 頁
 pagination_pageof:
   other: Page %d of %s
 
 widget_search:
-  other: 搜索
+  other: 搜尋
 widget_board:
   other: 公告
 widget_archive:
-  other: 归档
+  other: 文章
 widget_tags:
-  other: 标签
+  other: 標籤
 widget_categories:
-  other: 分类
+  other: 分類
 widget_tagcloud:
-  other: 标签云
+  other: 標籤雲
 widget_recent_posts:
   other: 最新文章
 
 
 profile_follow:
-  other: 关注
+  other: 關注
 profile_skill:
   other: 技能
 profile_label:
-  other: 个人标签
+  other: Labels
 profile_work:
-  other: 个人作品
+  other: Works
 profile_project:
-  other: 个人项目
+  other: Projects
 profile_link:
-  other: 个人链接
+  other: Links
+
+insight_hint: 
+  other: 輸入關鍵字...
+insight_posts: 
+  other: 文章
+insight_pages: 
+  other: 頁面
+insight_categories:
+  other: 分類
+insight_tags:
+  other: 標籤
+insight_untitled:
+  other: (未命名)
+
 
 unit_word:
   other: 字
@@ -88,52 +84,31 @@ unit_time:
   other: 分
 
 article_wordcount:
-  other: "字数统计: "
+  other: "字數統計: "
 article_readcount:
-  other: "阅读时长: "
+  other: "所需閱讀時間: "
 article_more:
   other: 查看更多
 article_comments:
-  other: 评论
+  other: 評論
 article_share:
-  other: 分享到
+  other: 分享
 article_catalogue:
-  other: 文章目录
+  other: 文章目錄
 
 total_article:
   other: 共 {{ .Count }} 篇文章
 total_tag:
-  other: 共 {{ .Count }} 个标签
+  other: 共 {{ .Count }} 個標籤
 total_category:
-  other: 共 {{ .Count }} 个分类
+  other: 共 {{ .Count }} 個分類
 total_link:
-  other: 共 {{ .Count }} 友链
+  other: 共 {{ .Count }} 連結
 total_repository:
-  other: 共 {{ .Count }} 项目
-
-
-donate_qrcode_alt:
-  other: 扫码支持
-donate_qrcode_title:
-  other: 扫一扫
-donate_button:
-  other: 赏
-donate_title:
-  other: 感谢您的支持,我会继续努力的!
-donate_tip:
-  other: 扫码打赏, 多少你说了算~
-donate_alipay_action_tip:
-  other: 打开支付宝扫一扫，即可进行扫码打赏哦~
-donate_wechatpay_action_tip:
-  other: 打开微信扫一扫，即可进行扫码打赏哦
-donate_alipay:
-  other: 支付宝
-donate_wechatpay:
-  other: 微信支付
-
+  other: 共 {{ .Count }} 項目
 
 comment:
-  other: 评论
+  other: 頻論
 tweets:
   other: 推文
 share:
@@ -148,29 +123,15 @@ copyright_base_on:
   other: base on
 copyright_powered_by:
   other: Powered by
-
 copyright_post:
-  other: 本文链接
+  other: 本文連結
 copyright_license:
   other: License
 
 
-insight_hint: 
-  other: 想要查找什么...
-insight_posts: 
-  other: 文章
-insight_pages: 
-  other: 页面
-insight_categories:
-  other: 分类
-insight_tags:
-  other: 标签
-insight_untitled:
-  other: (未命名)
-
 page_not_found_heading:
   other: 404 Not Found
 page_not_found_body:
-  other: 找不到页面啦~请换个姿势(￣.￣)
+  other: 找不到頁面
 page_not_found_back:
-  other: 返回首页
+  other: 返回首頁
