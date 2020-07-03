@@ -2,6 +2,7 @@
   {{- partial "social.html" . }}
   <div class="copyright">
     {{-  $current := now.Format "2006" }}
+    Copyright
     &copy;
     {{- if ne .Site.Params.since $current -}}
         {{- print .Site.Params.since }}  -
