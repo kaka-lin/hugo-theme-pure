@@ -5597,14 +5597,18 @@ pre .js .function {
   color: #8959a8;
 }
 
+/* 大外框 */
 pre {
-  background: #fafafa !important;
+  background: #282c34 !important;
   margin: 10px 0;
   padding: 15px 10px;
   overflow: auto;
   font-size: 13px;
   color: #4d4d4c;
   line-height: 1.5;
+  position: relative;
+  padding: 32px 10px 0 10px;
+  border-radius: 4px;
 }
 /*
 .highlight .gutter pre,
@@ -5612,11 +5616,39 @@ pre {
   color: #666;
 } */
 
+pre:before {
+  display: block;
+  content: "";
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #282c34 !important;
+  padding: 0 10px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+pre:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #fc625d;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 15px;
+  margin-top: 11px;
+  -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+}
+
+/* content(程式碼本身) */
 code {
   text-shadow: 0 1px #fff;
   padding: 0.2em 0.4em;
   margin: 0 0.3em;
-  color: #555;
   background: #eee;
   border-radius: 3px;
   font-size: 100%;
@@ -5642,39 +5674,7 @@ pre code:after {
 pre code.lang:after {
   content: attr("show-lang");
 }
-pre {
-  position: relative;
-  padding: 32px 10px 0 10px;
-  border-radius: 4px;
-}
 
-pre:before {
-  display: block;
-  content: "";
-  height: 32px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #f6f6f6 !important;
-  padding: 0 10px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-
-pre:after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  background: #fc625d;
-  width: 10px;
-  height: 10px;
-  top: 0;
-  left: 15px;
-  margin-top: 11px;
-  -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-}
 .highlight pre {
   background-color: inherit;
 }

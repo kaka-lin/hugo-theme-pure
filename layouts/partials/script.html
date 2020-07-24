@@ -5,9 +5,10 @@
 <script>
     window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 </script>
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<!-- Syntax Highlight -->
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
 {{- range .Site.Params.highlightjs.langs }}
-<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/{{.}}.min.js" defer></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/{{.}}.min.js" defer></script>
 {{- end -}}
 <script>
     hljs.configure({
