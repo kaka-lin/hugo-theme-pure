@@ -17,6 +17,8 @@ page_category:
   other: 分類
 page_categories:
   other: 分類
+page_series:
+  other: 系列
 page_tag:
   other: 標籤
 page_tags:
@@ -45,6 +47,8 @@ widget_tags:
   other: 標籤
 widget_categories:
   other: 分類
+widget_series:
+  other: 系列
 widget_tagcloud:
   other: 標籤雲
 widget_recent_posts:
@@ -102,6 +106,8 @@ total_tag:
   other: 共 {{ .Count }} 個標籤
 total_category:
   other: 共 {{ .Count }} 個分類
+total_series:
+  other: 共 {{ .Count }} 個系列
 total_link:
   other: 共 {{ .Count }} 連結
 total_repository:

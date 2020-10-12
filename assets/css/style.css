@@ -6078,6 +6078,7 @@ body.no-sidebar .sidebar {
 }
 
 .category-list-count,
+.series-list-count,
 .tag-list-count,
 .archive-list-count {
   padding-left: 5px;
@@ -6086,24 +6087,28 @@ body.no-sidebar .sidebar {
 }
 
 .category-list-count:before,
+.series-list-count:before,
 .tag-list-count:before,
 .archive-list-count:before {
   content: "(";
 }
 
 .category-list-count:after,
+.series-list-count:after,
 .tag-list-count:after,
 .archive-list-count:after {
   content: ")";
 }
 
 .category-list,
+.series-list,
 .archive-list,
 .tag-list {
   line-height: 1.75;
 }
 
 .category-list li:before,
+.series-list li:before,
 .archive-list li:before,
 .tag-list li:before {
   color: #ccc;
